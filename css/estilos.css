@@ -1,117 +1,55 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-}
-
-img{
-    width: 50px;
-    height: auto;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-  }
-  
-  ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    margin: 0;
-  }
-  
-  a {
-    display: block;
-    padding: 10px; 
-    text-decoration: none; 
-    color: black; 
-  }
-
-  #imagen1 {
-    float: left;
-    margin-left: 350px;
-  }
-  
-  #imagen2 {
-    width: 300px;
-    height: auto;
-  }
-  
-  #texto {
-    margin-left: 680px;
-    width: 300px;
-    height: 200px;
-    border: 1px solid black;
-    padding: 5px;
-  }  
-
-#h1{
-  text-align: center;
-  font-size: x-large;
-}
-
-.gallery-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.gallery-row {
-  display: flex;
-  margin: 10px 0;
-}
-
-.gallery-row img {
-  width: 300px;
-  margin-right: 10px;
-}
-
-#imagen {
-  display: block;
-  margin: auto;
-  width: 50%;
-}
-
-form {
-  display: table;
-  margin: auto;
-}
-
-label {
-  display: table-cell;
-  padding: 10px;
-  text-align: right;
-}
-
-input {
-  display: table-cell;
-  padding: 10px;
-}
-
-table {
-  margin-top: 20px;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td {
-  padding: 5px;
-}
-
-label {
-  display: inline-block;
-  width: 100px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
-  background-color: #f2f2f2;
+  background-color: #177477;
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+#h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 7vh;
+  height: 7vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.estilo-nav {
+  background-color: #a2ccc9;
+  justify-content: center;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav-link {
+  margin: 0 10px;
+  color: #000;
+}
+
+.texto {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
 }
