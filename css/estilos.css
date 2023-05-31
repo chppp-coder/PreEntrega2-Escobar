@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0vh;
+  padding: 0vh;
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -9,39 +9,39 @@ body {
   background-color: #177477;
 }
 
-.header {
+body header {
   text-align: center;
-  padding: 20px 0;
-  position: relative;
+  padding: 2vh 0vh;
 }
 
 #h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 7vh;
+  margin: 5vh 8vh 5vh 8vh;
+  font-weight: bold;
 }
 
 .logo {
-  width: 7vh;
-  height: 7vh;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 12vh;
+  height: 12vh;
+  margin: 0.6% 35%;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+.elementos-nav{
+  display: flex;
+  justify-content: center;
 }
 
 .estilo-nav {
   background-color: #a2ccc9;
-  justify-content: center;
-}
-
-.navbar-nav {
-  display: flex;
-  align-items: flex-end;
+  border:3px solid #000;
 }
 
 .nav-link {
-  margin: 0 10px;
   color: #000;
+  margin: 0 8vh;
 }
 
 .texto {
