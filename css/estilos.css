@@ -100,7 +100,7 @@ body header {
   grid-template-columns: repeat(2, 7rem);
   grid-template-rows: repeat(2, 7rem);
   gap: 15%;
-  padding: 3.8rem 5rem ;
+  padding: 3.8rem 5rem;
 }
 
 .contenedor-texto-gente {
@@ -118,11 +118,19 @@ footer {
 }
 
 .containerr-galeria{
+  /* background-color: black; */
   display: grid;
   justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(2, 1fr);
-  row-gap: 3rem;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(2, 30%);
+  gap: 6rem;
+  padding: 3rem;
+  margin-left: 5rem;
+}
+
+.foto-galeria{
+  width: 20rem;
+  height: auto;
 }
 
 h3{
